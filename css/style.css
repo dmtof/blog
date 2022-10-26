@@ -35,7 +35,7 @@ a {
     padding-bottom: 130px;
 
     background-color: #000000;
-    background-image: url(/img/banner-bg.jpg);
+    background-image: url(img/banner-bg.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -160,19 +160,19 @@ a {
 }
 
 .trend-item:nth-child(1) {
-    background-image: url(/img/trend1.jpg);
+    background-image: url(img/trend1.jpg);
 }
 
 .trend-item:nth-child(2) {
-    background-image: url(/img/trend2.jpg);
+    background-image: url(img/trend2.jpg);
 }
 
 .trend-item:nth-child(3) {
-    background-image: url(/img/trend3.jpg);
+    background-image: url(img/trend3.jpg);
 }
 
 .trend-item:nth-child(4) {
-    background-image: url(/img/trend4.jpg);
+    background-image: url(img/trend4.jpg);
 }
 
 
@@ -625,7 +625,7 @@ a {
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .menu-intro {
-        background-image: url(/img/banner-bg-tablet.jpg);
+        background-image: url(img/banner-bg-tablet.jpg);
     }
 
     .navbar {
@@ -638,7 +638,7 @@ a {
 
     .burger-nav {
         display: block;
-        background-image: url(/img/burger-menu.png);
+        background-image: url(img/burger-menu.png);
         width: 30px;
         height: 30px;
         background-size: cover;
@@ -726,7 +726,7 @@ a {
 
 @media (min-width: 360px) and (max-width: 767px) {
     .menu-intro {
-        background-image: url(/img/banner-mobile.jpg);
+        background-image: url(img/banner-mobile.jpg);
     }
 
     .navbar {
@@ -744,7 +744,7 @@ a {
 
     .burger-nav {
         display: block;
-        background-image: url(/img/burger-menu.png);
+        background-image: url(img/burger-menu.png);
         width: 30px;
         height: 30px;
         background-size: cover;
