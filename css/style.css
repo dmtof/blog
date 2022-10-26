@@ -372,7 +372,7 @@ a {
     border: none;
 
     background-color: #b59f5b;
-    background-image: url(/svg/search.svg);
+    background-image: url(svg/search.svg);
     background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -595,15 +595,15 @@ a {
 }
 
 .dribble-icon {
-    background-image: url(/svg/001-dribbble.svg);
+    background-image: url(svg/001-dribbble.svg);
 }
 
 .pinterest-icon {
-    background-image: url(/svg/001-pinterest.svg);
+    background-image: url(svg/001-pinterest.svg);
 }
 
 .tumblr-icon {
-    background-image: url(/svg/003-tumblr.svg);
+    background-image: url(svg/003-tumblr.svg);
 }
 
 .copyright-tag {
