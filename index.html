@@ -386,6 +386,57 @@
 
         <p class="copyright-tag"><a href="#0" class="copyright-tag__link">Copyright</a> © 2009–2019 City Blog LLC.</p>
     </footer>
+
+    <div class="popup " id="popup">
+        <div class="popup-container">
+            <div class="close-button" id="close-button-id"><span class="screenreader-text">Закрыть попап</span></div>
+            <h3 class="popup__header">Ваш фидбек</h3>
+            <form class="popup-form">
+                <div class="form-step">
+                    <label class="label-container">
+                        Как часто Вы заходите на сайт?
+                        <div class="frequency-container">
+                            <select name="frequency" class="step__main">
+                                <option class="frequency-option" value="1">Почти каждый день</option>
+                                <option class="frequency-option" value="2">Раз в несколько дней</option>
+                                <option class="frequency-option" value="3">Раз в несколько недель</option>
+                                <option class="frequency-option" value="4">Несколько раз в год</option>
+                            </select>
+                        </div>
+                    </label>
+                </div>
+                <div class="form-step">
+                    <label class="label-container">
+                        Вы подписаны на e-mail рассылку?
+                        <div class="checkboxes-container">
+                            <input type="radio" name="Email-subs" id="radio-yes" class="radio">
+                            <label for="radio-yes" class="radio-yes">Да</label>
+                            <input type="radio" name="Email-subs" id="radio-no" class="radio">
+                            <label for="radio-no" class="radio-no">Нет</label>
+                        </div>
+                    </label>
+                </div>
+                <div class="form-step">
+                    <label class="label-container">
+                        Расскажите, какой контент вы хотели бы видеть на нашем сайте?
+                        <textarea type="text" class="step__main text-area" placeholder="Может, больше рецептов?"></textarea>
+                    </label>
+                </div>
+
+                <button type="submit" class="send-form-button">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Открывать попап через 5 секунд
+        // setTimeout(() => document.querySelector("#popup").classList.toggle("hidden"), 5000);
+
+        // Закрывать попап
+        document.getElementById('close-button-id').onclick = function () {
+            document.getElementById('popup').classList.add('hidden');
+        }
+    </script>
 </body>
 
 </html>
