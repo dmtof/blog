@@ -387,7 +387,7 @@
         <p class="copyright-tag"><a href="#0" class="copyright-tag__link">Copyright</a> © 2009–2019 City Blog LLC.</p>
     </footer>
 
-    <div class="popup " id="popup">
+    <div class="popup hidden" id="popup">
         <div class="popup-container">
             <div class="close-button" id="close-button-id"><span class="screenreader-text">Закрыть попап</span></div>
             <h3 class="popup__header">Ваш фидбек</h3>
@@ -430,7 +430,7 @@
 
     <script>
         // Открывать попап через 5 секунд
-        // setTimeout(() => document.querySelector("#popup").classList.toggle("hidden"), 5000);
+        setTimeout(() => document.querySelector("#popup").classList.toggle("hidden"), 5000);
 
         // Закрывать попап
         document.getElementById('close-button-id').onclick = function () {
