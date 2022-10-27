@@ -22,8 +22,14 @@
                 <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Контакты</a></li>
             </ul>
             <div class="burger-nav">
-                <ul class="burger-menu">
-                    <li class="burger-menu__button"><a href="#0" class="burger-menu__link"></a></li>
+                <div class="burger-button" id="burger-button-id"></div>
+                <ul class="burger-menu hidden" id="burger-menu-id">
+                    <li class="burger-menu__button"><a href="#0" class="navbar-menu__link">Главная</a></li>
+                    <li class="burger-menu__button"><a href="#0" class="navbar-menu__link">Посты</a></li>
+                    <li class="burger-menu__button"><a href="#0" class="navbar-menu__link">Статьи</a></li>
+                    <li class="burger-menu__button"><a href="#0" class="navbar-menu__link">Теги</a></li>
+                    <li class="burger-menu__button"><a href="#0" class="navbar-menu__link">Темы</a></li>
+                    <li class="burger-menu__button"><a href="#0" class="navbar-menu__link">Контакты</a></li>
                 </ul>
             </div>
         </div>
@@ -419,7 +425,8 @@
                 <div class="form-step">
                     <label class="label-container">
                         Расскажите, какой контент вы хотели бы видеть на нашем сайте?
-                        <textarea type="text" class="step__main text-area" placeholder="Может, больше рецептов?"></textarea>
+                        <textarea type="text" class="step__main text-area"
+                            placeholder="Может, больше рецептов?"></textarea>
                     </label>
                 </div>
 
@@ -430,7 +437,7 @@
 
     <script>
         // Открывать попап через 5 секунд
-        setTimeout(() => document.querySelector("#popup").classList.toggle("hidden"), 5000);
+        setTimeout(() => document.querySelector("#popup").classList.toggle("hidden"), 10000);
 
         // Закрывать попап
         document.getElementById('close-button-id').onclick = function () {
