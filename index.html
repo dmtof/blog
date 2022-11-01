@@ -13,23 +13,15 @@
     <header class="menu-intro">
         <div class="navbar">
             <a href="#0" class="logo-link"><img src="svg/noemi-logo.svg" alt="noemi-logo" class="logo-image"></a>
-            <ul class="navbar-menu">
-                <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Главная</a></li>
-                <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Посты</a></li>
-                <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Статьи</a></li>
-                <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Теги</a></li>
-                <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Темы</a></li>
-                <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Контакты</a></li>
-            </ul>
-            <div class="burger-nav">
+            <div class="menu">
                 <div class="burger-button" id="burger-button-id"></div>
-                <ul class="burger-menu hidden" id="burger-menu-id">
-                    <li class="burger-menu__button"><a href="#0" class="navbar-menu__link">Главная</a></li>
-                    <li class="burger-menu__button"><a href="#0" class="navbar-menu__link">Посты</a></li>
-                    <li class="burger-menu__button"><a href="#0" class="navbar-menu__link">Статьи</a></li>
-                    <li class="burger-menu__button"><a href="#0" class="navbar-menu__link">Теги</a></li>
-                    <li class="burger-menu__button"><a href="#0" class="navbar-menu__link">Темы</a></li>
-                    <li class="burger-menu__button"><a href="#0" class="navbar-menu__link">Контакты</a></li>
+                <ul class="navbar-menu">
+                    <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Главная</a></li>
+                    <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Посты</a></li>
+                    <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Статьи</a></li>
+                    <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Теги</a></li>
+                    <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Темы</a></li>
+                    <li class="navbar-menu__button"><a href="#0" class="navbar-menu__link">Контакты</a></li>
                 </ul>
             </div>
         </div>
@@ -442,6 +434,10 @@
         // Закрывать попап
         document.getElementById('close-button-id').onclick = function () {
             document.getElementById('popup').classList.add('hidden');
+        }
+
+        document.getElementById('burger-button-id').onclick = function () {
+            document.getElementById('burger-menu-id').classList.remove('hidden');
         }
     </script>
 </body>

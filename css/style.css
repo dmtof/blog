@@ -85,6 +85,18 @@ a {
     padding: 2%;
 }
 
+.burger-button {
+    display: none;
+}
+
+.close-button {
+    width: 20px;
+    height: 20px;
+    background-image: url(../svg/form-x.svg);
+    display: block;
+    margin-left: -10vw;
+}
+
 .burger-menu__button {
     margin: 4vh 0;
 
@@ -755,7 +767,7 @@ a {
 }
 
 .radio {
-	display: none;
+    display: none;
 }
 
 .checkboxes-container {
@@ -763,10 +775,11 @@ a {
 }
 
 .checkboxes-container label {
-	cursor: pointer;
-	position: relative;
-	padding-left: 20px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 20px;
 }
+
 .checkboxes-container label:before {
     content: "";
     width: 18px;
@@ -779,13 +792,13 @@ a {
     background-position: center;
     background-repeat: no-repeat;
 }
- 
-.radio:checked + label:before {
-	background-image: url(../svg/form-circle.svg);
+
+.radio:checked+label:before {
+    background-image: url(../svg/form-circle.svg);
 }
- 
+
 .checkboxes-container label:hover:before {
-	filter: brightness(120%);
+    filter: brightness(120%);
 }
 
 .radio-no {
@@ -912,7 +925,7 @@ a {
     .footer-content {
         max-width: 90vw;
     }
-    
+
     .popup-container {
         max-width: 50%;
     }
@@ -1045,7 +1058,7 @@ a {
     .footer-content {
         max-width: 90vw;
     }
-    
+
     .popup-container {
         max-width: 80%;
     }
