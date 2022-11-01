@@ -881,12 +881,26 @@ a {
         flex-wrap: wrap;
     }
 
+    .post-list__data {
+        margin: 3px 0;
+    }
+
     .post-list__frame {
         margin: 0;
     }
 
     .post-list__header-name {
         font-size: 1.0625rem;
+    }
+
+    .post-list:after {
+        content: "";
+        display: block;
+        background-color: #aaaaaa;
+        height: 3px;
+        width: 100%;
+        margin-top: 3vh;
+        opacity: 0.4;
     }
 
     .main-content-with-aside {
@@ -947,6 +961,7 @@ a {
 
     .menu-intro {
         height: 100vh;
+        box-sizing: border-box;
     }
 
     .burger-nav {
@@ -974,7 +989,7 @@ a {
     }
 
     .logo-link {
-        margin: 50vh auto 0;
+        margin: 35vh auto 0;
     }
 
     .logo-image {
@@ -1007,12 +1022,26 @@ a {
         flex-wrap: wrap;
     }
 
+    .post-list__data {
+        margin: 3px 0;
+    }
+
     .post-list__frame {
         margin: 0;
     }
 
     .post-list__header-name {
         font-size: 1.0625rem;
+    }
+
+    .post-list:after {
+        content: "";
+        display: block;
+        background-color: #aaaaaa;
+        height: 3px;
+        width: 100%;
+        margin-top: 3vh;
+        opacity: 0.4;
     }
 
     .main-content-with-aside {
@@ -1025,6 +1054,7 @@ a {
     }
 
     .right-sidebar {
+        margin-top: 5vh;
         max-width: 100%;
     }
 
